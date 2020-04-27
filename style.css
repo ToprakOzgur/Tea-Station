@@ -109,6 +109,7 @@ a {
     animation: show 5s ease-in-out 1;
 }
 
+/* end header */
 /* animations */
 @keyframes show {
     0% {
@@ -125,7 +126,6 @@ a {
 @keyframes slideFromRight {
     0% {
         transform: translateX(1000px);
-
     }
 
     50% {
@@ -161,4 +161,11 @@ a {
 }
 
 /* end of animations */
-/* end header */
+
+/* content divider */
+.content-divider {
+    height: 0.5rem;
+    background: linear-gradient(to left, var(--primaryColor), var(--secondaryColor), var(--primaryColor));
+}
+
+/* end content divider */
