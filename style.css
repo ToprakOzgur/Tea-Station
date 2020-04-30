@@ -494,6 +494,17 @@ a {
   padding: 0.2rem;
   border-radius: 1rem;
   margin: 2rem 0;
+  /* box shadow */
+  transition: var(--mainTransition);
+  -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+}
+.service-card:hover {
+  /* box shadow */
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .service-img {
   width: 100%;
@@ -544,6 +555,25 @@ a {
     width: 30%;
     margin-right: 3.333%;
   }
+}
+.service-img-container {
+  position: relative;
+}
+.service-icon {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 2rem;
+  background: var(--secondaryColor);
+  padding: 0.25rem 0.6rem;
+  border-radius: 50%;
+  border: 0.2rem solid var(--primaryColor);
+  color: var(--mainDark);
+  transform: translate(-50%, 50%);
+  /* box shadow */
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 /* end of services */
 
