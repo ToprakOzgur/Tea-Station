@@ -530,6 +530,21 @@ a {
   background: transparent;
   color: var(--mainWhite);
 }
+@media screen and (min-width: 768px) {
+  .service-card {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .service-card {
+    float: left;
+    width: 30%;
+    margin-right: 3.333%;
+  }
+}
 /* end of services */
 
 /* footer */
